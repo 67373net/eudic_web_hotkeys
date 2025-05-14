@@ -32,6 +32,10 @@ style.innerHTML = `
         animation: none !important;
         transition: none !important;
     }
+    .card-container.full {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
 `;
 
 function clickButton(str) {
@@ -76,11 +80,10 @@ const keyFuncs = {
 }
 
 setTimeout(() => {
-  document.querySelector('.card-container.full').style.marginLeft = 0;
-  document.querySelector('.card-container.full').style.marginRight = 0;
   document.head.appendChild(style);
   document.addEventListener('keydown', event => {
     const func = keyFuncs[event.key];
     func && func();
   });
 }, 1288)
+
