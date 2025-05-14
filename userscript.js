@@ -46,8 +46,6 @@ function liju() {
   ele.classList.remove('liju-trans-blur')
 }
 
-//【添加按键】
-
 const keyFuncs = {
   G: () => {
     document.querySelector('[nztype="rollback"]').click(); // 撤销
