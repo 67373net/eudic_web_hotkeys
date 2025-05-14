@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        欧路词典iPhone视图优化及按键触发
+// @name        欧路词典移动视图优化及按键触发
 // @namespace   67373net
 // @description 欧路词典自用脚本
-// @version     0.8
+// @version     0.88
 // @author      67373net
 // @match       https://dict.eudic.net/areas/recite/*
 // @license     MIT
